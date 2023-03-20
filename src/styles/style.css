@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+body {
+  background-color: #2b2a33;
+  color: white;
+  font-family: 'Kanit';
+}
+
+.search {
+  width: 100%;
+  background-color: #42414d;
+  color: white;
+  border: none;
+  padding-left: 10px;
+  float: left;
+  border-radius: 5px;
+}
+.search:focus {
+  outline: none;
+}
+.results  {
+  width: 100%;
+  background-color: #42414d;
+  color: white;
+  padding-left: 10px;
+  float: left;
+  border: solid 1px white;
+}
+
+#title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#site-icon {
+  height: 100%;
+}
+
+input {
+  float: left;
+}
+
+/* Make input column whit*/
